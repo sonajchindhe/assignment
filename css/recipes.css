@@ -40,8 +40,12 @@ button{
 	margin-top: -20px;
 }
 
+.modalDialog .font_size_25{
+	margin-top: 55px;
+}
+
 .modalDialog > section {
-	width: 665px;
+	width: 585px;
 	position: relative;
 	margin: 10% auto;
 	padding:25px 40px;
@@ -69,6 +73,7 @@ button{
 
 .modalDialog .content{
 	font-size: 13px;
+	margin-bottom: 20px;
 }
 
 .close {
@@ -143,6 +148,7 @@ button.orange_bgcolor{
 	border-radius: 5px 0px 0px 5px;
     padding: 28px 38px;	
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 button.orange_dark_color{
@@ -249,6 +255,7 @@ figure a span:hover{
 	border-radius: 5px;
 	box-shadow: -1px 1px 1px 1px #e7e7e7;
 	margin-bottom: 12px;
+	cursor: pointer;
 }
 
 .second_sub_section article figure{
@@ -320,6 +327,7 @@ figure a span:hover{
 
 .forth_section .section_two .how_it_works{
 	width: 30%;
+	cursor: pointer;
 }
 
 .forth_section .how_it_works_image{

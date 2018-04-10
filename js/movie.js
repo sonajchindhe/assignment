@@ -42,7 +42,7 @@ function searchMovies() {
 			}
 			else{
 				$(".image_section").removeClass('loader');
-				$(".image_section").append('No Data Found');
+				$(".image_section").append("<section class='no_data_found'>No Data Found</section>");
 
 			}
 

@@ -40,10 +40,6 @@
 	margin-top: 65px;
 }
 
-.m_r_30{
-	margin-right: 30px;
-}
-
 /* margins */
 
 
@@ -71,10 +67,6 @@
 }
 
 
-.orange_color{
-	color: #ff4800;
-}
-
 /* colors */
 
 
@@ -83,11 +75,6 @@
 .black_bg_color{
 	background-color: #000000;
 }
-
-.white_bgcolor{
-	background-color: #ffffff;
-}
-
 
 .orange_bgcolor{
 	background-color: #ff4800;
@@ -102,36 +89,16 @@
 
 /* font size */
 
-.font_size_40{
-	font-size: 40px;
-}
-
 .font_size_35{
 	font-size: 35px;
-}
-
-.font_size_30{
-	font-size: 30px;
 }
 
 .font_size_28{
 	font-size: 28px;
 }
 
-.font_size_25{
-	font-size: 25px;
-}
-
 .font_size_22{
 	font-size: 22px;
-}
-
-.font_size_20{
-	font-size: 20px;
-}
-
-.font_size_18{
-	font-size: 18px;
 }
 
 /* font size */
