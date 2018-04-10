@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipes</title>
+	<meta charset="UTF-8">	 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="stylesheet" type="text/css" href="css/recipes.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="recipes.js"></script> -->
+</head>
+
+<body class="gray_color font_family">
+
+	<main>
+
+	<!-- background image section start -->
+		<article>
+			<section class="first_section">
+				<figure>
+					<img src="images/install_extenstion.png" />
+				</figure>
+				<article class="content1">
+					<header>
+						<h3>Find Delicious Mouth-Watering Recipes</h3>					
+					</header>
+					<article class="flex">
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+						<div class="dot"></div>
+					</article>
+					<p class="white_color m_t_30">
+						We understand cooking can sometimes be time consuming, especially when you’re not sure if the recipe is going to
+					</p>	
+					<p>
+						work. Find a collection of the best tried and tested delicious recipes with this extension. Indulge in some 
+					</p>						
+					<p>
+						delightful homecooked meals! .
+					</p>	
+				</article>
+				<article class="content2 m_t_65">
+					<button class="orange_bgcolor">
+						Get Recipes
+						<button class="orange_dark_color">
+							<img src="images/download.png" />
+						</button>
+					</button>				
+				</article>
+				<article class="content3">				
+					<p class="light_gray_color m_t_30 p1">
+						By clicking on the button you agree to install Jobs extension and have read							
+					</p>
+					<p class="light_gray_color p2">
+						and agreed to the <a href="#" class="dark_gray_color">EULA</a>, <a href="#" class="dark_gray_color">Privacy Policy</a> and <a href="#" class="dark_gray_color">Endorsement Disclaimer</a> And <a href="#" class="dark_gray_color">DMCA Policy</a>.
+					</p>			
+				</article>			
+			</section>
+		</article>
+	<!-- background image section end -->
+
+	<!-- modal box start -->
+
+		<article id="openModal" class="modalDialog">
+			<section>
+				<a href="#close" title="Close" class="close">X</a>
+				<figure>
+					<img src="images/install_extenstion.png" />
+				</figure>
+				<p class="font_size_25 black_color">
+					Install This Extension to
+				</p>
+				<h2 class="font_size_35 black_color">Get This Recipe and More!</h2>
+				<article class="content2">
+					<button class="orange_bgcolor">
+						INSTALL NOW
+						<button class="orange_dark_color">
+							<img src="images/download.png" />
+						</button>
+					</button>				
+				</article>
+				<article class="content">
+					<p class="p1">	
+						By clicking on the button you agree to install Jobs extension and have read					
+					</p>
+					<p class="p2">
+						and agreed to the <a href="#">EULA</a>, <a href="#">Privacy Policy</a> and <a href="#">Endorsement Disclaimer</a> And <a href="#">DMCA Policy</a>.
+					</p>
+				</article>
+			</section>
+		</article>
+	<!-- modal box end -->
+
+	<!-- recipes section start -->
+		<article class="second_section">
+			<section class="first_sub_section">
+
+				<!-- first slider start  -->
+				<article class="slider_images">
+					<header class="sub_heading">
+						<h4>Quick & Easy Recipes</h4>
+					</header>
+					<figure role="group" class="figure_group">
+						<figure>
+					        <div class="showSlide_new">  
+						        <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/easy_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image2.png" />  
+							            <figcaption class="figcaption_active">Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+							        <div class="hidden-sm mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="hidden-sm mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div>  			       
+						        </div>	           
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new">  
+					            <div class="mini_showslide">
+						        	<div class="mini_images">  
+							            <img src="images/easy_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="hidden-sm mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class=" hidden-sm mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new">  
+					            <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/easy_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class="hidden-sm mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="hidden-sm mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new">  
+					            <div class="mini_showslide">		        	
+							        <div class="mini_images">  
+							            <img src="images/easy_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="hidden-sm mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>   
+							        <div class="hidden-sm mini_images hidden-xs">  
+							            <img src="images/easy_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+						        </div>	    
+					        </div>  			   	  	     
+				  	    </figure>   
+					        <a class="left" onclick="nextSlide(-1,'showSlide_new')">
+					        	<span>&#10094;</span>
+				        	</a>  
+				        	<a class="right" onclick="nextSlide(1,'showSlide_new')">
+				        		<span>&#10095;</span>
+				        	</a>  
+				    </figure>
+			    </article>
+			    <!-- first slider end  -->
+
+			    <!-- second slider start  -->
+				<article class="slider_images">
+					<header class="sub_heading">
+						<h4>Dinner Recipes</h4>
+					</header>
+					<figure role="group" class="figure_group">
+						<figure>
+					        <div class="showSlide_new1">  
+						        <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/dinner_recipes/image1.png" />  
+							            <figcaption>Fresh Tomato Shrimp Pasta</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image2.png" />  
+							            <figcaption>Grilled Salmon with Asparagus</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image3.png" /> 
+							            <figcaption>Thai Rice Noodles Salad</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image4.png" />  
+							            <figcaption>Teriyaki Chicken</figcaption>
+							        </div>  			       
+						        </div>	           
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new1">  
+					            <div class="mini_showslide">
+						        	<div class="mini_images">  
+							            <img src="images/dinner_recipes/image2.png" />  
+							            <figcaption>Grilled Salmon with Asparagus</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image3.png" /> 
+							            <figcaption>Thai Rice Noodles Salad</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image4.png" />  
+							            <figcaption>Teriyaki Chicken</figcaption>
+							        </div> 
+							        <div class=" mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image1.png" />  
+							            <figcaption>Fresh Tomato Shrimp Pasta</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new1">  
+					            <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/dinner_recipes/image3.png" /> 
+							            <figcaption>Thai Rice Noodles Salad</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image4.png" />  
+							            <figcaption>Teriyaki Chicken</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image1.png" />  
+							            <figcaption>Fresh Tomato Shrimp Pasta</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image2.png" />  
+							            <figcaption>Grilled Salmon with Asparagus</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new1">  
+					            <div class="mini_showslide">		        	
+							        <div class="mini_images">  
+							            <img src="images/dinner_recipes/image4.png" />  
+							            <figcaption>Teriyaki Chicken</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image1.png" />  
+							            <figcaption>Fresh Tomato Shrimp Pasta</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image2.png" />  
+							            <figcaption>Grilled Salmon with Asparagus</figcaption>
+							        </div>   
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/dinner_recipes/image3.png" /> 
+							            <figcaption>Thai Rice Noodles Salad</figcaption> 
+							        </div>  
+						        </div>	    
+					        </div>  			   	  	     
+				  	    </figure>   
+					        <a class="left" onclick="nextSlide(-1,'showSlide_new1')">
+					        	<span>&#10094;</span>
+				        	</a>  
+				        	<a class="right" onclick="nextSlide(1,'showSlide_new1')">
+				        		<span>&#10095;</span>
+				        	</a>  
+				    </figure>
+			    </article>
+			    <!-- second slider end  -->
+
+			    <!-- third slider start  -->
+			    <article class="slider_images">
+					<header class="sub_heading">
+						<h4>Desert Recipes</h4>
+					</header>
+					<figure role="group" class="figure_group">
+						<figure>
+					        <div class="showSlide_new2">  
+						        <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/desert_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div>  			       
+						        </div>	           
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new2">  
+					            <div class="mini_showslide">
+						        	<div class="mini_images">  
+							            <img src="images/desert_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class=" mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new2">  
+					            <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/desert_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new2">  
+					            <div class="mini_showslide">		        	
+							        <div class="mini_images">  
+							            <img src="images/desert_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>   
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/desert_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+						        </div>	    
+					        </div>  			   	  	     
+				  	    </figure>   
+					        <a class="left" onclick="nextSlide(-1,'showSlide_new2')">
+					        	<span>&#10094;</span>
+				        	</a>  
+				        	<a class="right" onclick="nextSlide(1,'showSlide_new2')">
+				        		<span>&#10095;</span>
+				        	</a>  
+				    </figure>
+			    </article>
+			    <!-- third slider start  -->
+
+			    <!-- forth slider start  -->
+			    <article class="slider_images">
+					<header class="sub_heading">
+						<h4>Lunch Recipes</h4>
+					</header>
+					<figure role="group" class="figure_group">
+						<figure>
+					        <div class="showSlide_new3">  
+						        <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/lunch_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div>  			       
+						        </div>	           
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new3">  
+					            <div class="mini_showslide">
+						        	<div class="mini_images">  
+							            <img src="images/lunch_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class=" mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new3">  
+					            <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/lunch_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new3">  
+					            <div class="mini_showslide">		        	
+							        <div class="mini_images">  
+							            <img src="images/lunch_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>   
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/lunch_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+						        </div>	    
+					        </div>  			   	  	     
+				  	    </figure>   
+					        <a class="left" onclick="nextSlide(-1,'showSlide_new3')">
+					        	<span>&#10094;</span>
+				        	</a>  
+				        	<a class="right" onclick="nextSlide(1,'showSlide_new3')">
+				        		<span>&#10095;</span>
+				        	</a>  
+				    </figure>
+			    </article>
+			    <!-- forth slider end  -->
+
+				<!-- fifth slider start  -->
+			    <article class="slider_images">
+					<header class="sub_heading">
+						<h4>Breakfast & Brunch Recipes</h4>
+					</header>
+					<figure role="group" class="figure_group">
+						<figure>
+					        <div class="showSlide_new4">  
+						        <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/breakfast_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div>  			       
+						        </div>	           
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new4">  
+					            <div class="mini_showslide">
+						        	<div class="mini_images">  
+							            <img src="images/breakfast_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class=" mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new4">  
+					            <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/breakfast_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new4">  
+					            <div class="mini_showslide">		        	
+							        <div class="mini_images">  
+							            <img src="images/breakfast_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>   
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/breakfast_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+						        </div>	    
+					        </div>  			   	  	     
+				  	    </figure>   
+					        <a class="left" onclick="nextSlide(-1,'showSlide_new4')">
+					        	<span>&#10094;</span>
+				        	</a>  
+				        	<a class="right" onclick="nextSlide(1,'showSlide_new4')">
+				        		<span>&#10095;</span>
+				        	</a>  
+				    </figure>
+			    </article>
+			    <!-- fifth slider end  -->
+
+				<!-- sixth slider start  -->
+			    <article class="slider_images">
+					<header class="sub_heading">
+						<h4>Appetizer & Snack Recipes</h4>
+					</header>
+					<figure role="group" class="figure_group">
+						<figure>
+					        <div class="showSlide_new5">  
+						        <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/snack_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div>  			       
+						        </div>	           
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new5">  
+					            <div class="mini_showslide">
+						        	<div class="mini_images">  
+							            <img src="images/snack_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class=" mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new5">  
+					            <div class="mini_showslide">
+						        	<div class=" mini_images">  
+							            <img src="images/snack_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>  
+						        </div>	    
+					        </div>  
+						</figure>
+						<figure>
+					        <div class="showSlide_new5">  
+					            <div class="mini_showslide">		        	
+							        <div class="mini_images">  
+							            <img src="images/snack_recipes/image4.png" />  
+							            <figcaption>One Pan Orecchiette Pasta</figcaption>
+							        </div> 
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image1.png" />  
+							            <figcaption>Spicy Garlic Lime Chicken</figcaption>
+							        </div>  
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image2.png" />  
+							            <figcaption>Baked Honey Mustard Chicken</figcaption>
+							        </div>   
+							        <div class="mini_images hidden-xs">  
+							            <img src="images/snack_recipes/image3.png" /> 
+							            <figcaption>Spinach and Feta Pasta</figcaption> 
+							        </div>  
+						        </div>	    
+					        </div>  			   	  	     
+				  	    </figure>   
+					        <a class="left" onclick="nextSlide(-1,'showSlide_new5')">
+					        	<span>&#10094;</span>
+				        	</a>  
+				        	<a class="right" onclick="nextSlide(1,'showSlide_new5')">
+				        		<span>&#10095;</span>
+				        	</a>  
+				    </figure>
+			    </article>
+			    <!-- fifth slider end  -->
+			</section>
+
+			<!-- sidebar categories start -->
+			<section class="second_sub_section">
+			    <aside>
+				    <header class="sub_heading">
+						<h4>Related Categories</h4>
+					</header>
+					<section>
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/diet.png" />
+								<figcaption class="sidebar_content">DIET Recipes</figcaption>
+							</figure>
+						</article>
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/tv.png" />
+								<figcaption class="sidebar_content">tv Recipes</figcaption>
+							</figure>
+						</article>
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/salad.png" />
+								<figcaption class="sidebar_content">SALAD Recipes</figcaption>
+							</figure>
+						</article>
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/soup.png" />
+								<figcaption class="sidebar_content">SOUP Recipes</figcaption>
+							</figure>
+						</article>
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/chicken.png" />
+								<figcaption class="sidebar_content">CHICKEN Recipes</figcaption>
+							</figure>
+						</article>
+						<article class="sidebar sidebar_active">
+							<figure class="sidebar_image">
+								<img src="images/categories/beef.png" />
+								<figcaption class="sidebar_content">BEEF Recipes</figcaption>
+							</figure>
+						</article>						
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/fish.png" />
+								<figcaption class="sidebar_content">FISH Recipes</figcaption>
+							</figure>
+						</article>
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/vegetarian.png" />
+								<figcaption class="sidebar_content">VEGETARIAN Recipes</figcaption>
+							</figure>
+						</article>
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/pasta.png" />
+								<figcaption class="sidebar_content">PASTA Recipes</figcaption>
+							</figure>
+						</article>
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/gluten.png" />
+								<figcaption class="sidebar_content">GLUTEN FREE Recipes</figcaption>
+							</figure>
+						</article>
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/healthy.png" />
+								<figcaption class="sidebar_content">HEALTHY Recipes</figcaption>
+							</figure>
+						</article>
+						<article class="sidebar">
+							<figure class="sidebar_image">
+								<img src="images/categories/low_fats.png" />
+								<figcaption class="sidebar_content">LOW FAT Recipes</figcaption>
+							</figure>
+						</article>
+					</section>
+				</aside>
+			</section>
+			<!-- sidebar categories end -->
+		</article>
+	<!-- recipes section end -->
+
+		<footer>
+	<!-- about us start -->
+			<article class="third_section">
+				<section class="section_one white_color">
+					<header>
+						<h5 class="font_size_22">
+							<a href="#" class="white_color">About Us</a>
+						</h5>
+					</header>
+					<p class="about_us">
+						We know how tiresome and disappointing it can be when you find a recipe online and follow it to the T, but the food doesn't turn out as good. <br />To tackle that problem, we have accumulated a collection of the best recipes that actually work for every category. Low fat, diet, gluten free, <br />vegetarian. Find recipes for all categories!
+					</p>
+				</section>
+			</article>
+	<!-- about us end -->
+
+	<!-- how it works start -->
+			<article class="forth_section">
+				<section class="section_one white_color">
+					<header class="sub_heading">
+						<h4>How it works?</h4>
+					</header>
+				</section>
+				<section class="section_two">
+					<article class="how_it_works">
+						<figure class="how_it_works_image">
+							<figure class="m_0">							
+								<img src="images/how_it_works1.png" />
+							</figure>
+							<figcaption class="how_it_works_content">Click on Get Recipes</figcaption>
+						</figure>
+					</article>
+					<article class="how_it_works_arrows hidden-xs hidden-sm">
+						<figure class="how_it_works_arrows_image">
+							<img src="images/arrow.png" />
+						</figure>
+					</article>
+					<article class="how_it_works">
+						<figure class="how_it_works_image">
+							<figure class="m_0">							
+								<img src="images/how_it_works2.png" />
+							</figure>
+							<figcaption class="how_it_works_content">Add Extension</figcaption>
+						</figure>
+					</article>
+					<article class="how_it_works_arrows hidden-xs hidden-sm">
+						<figure class="how_it_works_arrows_image">
+							<img src="images/arrow.png" />
+						</figure>
+					</article>
+					<article class="how_it_works">
+						<figure class="how_it_works_image">
+							<figure class="m_0">							
+								<img src="images/how_it_works3.png" />
+							</figure>
+							<figcaption class="how_it_works_content">Find Recipes</figcaption>
+						</figure>
+					</article>
+				</section>
+			</article>
+	<!-- how it works start -->
+
+	<!-- footer start -->
+			<article class="fifth_section">
+				<section class="black_bg_color">
+					About us | Privacy Policy | Terms of Service | Contact Us | Endorsement Disclaimer And DMCA Policy | Uninstall
+				</section>
+			</article>
+	<!-- footer end -->
+		</footer>
+
+	</main>
+
+
+	<script type="text/javascript" src="js/recipes.js"></script>
+
+
+</body>
+
+</html>

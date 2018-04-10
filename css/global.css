@@ -1,0 +1,181 @@
+/* font family */
+ 
+.font_family{
+	font-family: Myriad Pro;
+}
+
+/* font family */
+
+
+/* dot and flex*/
+
+.dot{
+	height: 4px;
+	width:4px;
+	background-color: #d4d5d8;
+	margin: 0px 2px;
+}
+
+.flex{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+/* dot */
+
+
+/* margins */
+
+.m_0{
+	margin: 0px;
+}
+
+.m_t_30{
+	margin-top: 30px;
+}
+
+.m_t_65{
+	margin-top: 65px;
+}
+
+.m_r_30{
+	margin-right: 30px;
+}
+
+/* margins */
+
+
+
+/* colors */
+
+.white_color{
+	color: #ffffff;
+}
+
+.black_color{
+	color: #000000;
+}
+
+.gray_color{
+	color: #666666;
+}
+
+.light_gray_color{
+	color: #bcbcbd;
+}
+
+.dark_gray_color{
+	color: #d4d5d8;
+}
+
+
+.orange_color{
+	color: #ff4800;
+}
+
+/* colors */
+
+
+/* background colors */
+
+.black_bg_color{
+	background-color: #000000;
+}
+
+.white_bgcolor{
+	background-color: #ffffff;
+}
+
+
+.orange_bgcolor{
+	background-color: #ff4800;
+}
+
+.orange_dark_color{
+	background-color: #da3e00;
+}
+
+/* background colors */
+
+
+/* font size */
+
+.font_size_40{
+	font-size: 40px;
+}
+
+.font_size_35{
+	font-size: 35px;
+}
+
+.font_size_30{
+	font-size: 30px;
+}
+
+.font_size_28{
+	font-size: 28px;
+}
+
+.font_size_25{
+	font-size: 25px;
+}
+
+.font_size_22{
+	font-size: 22px;
+}
+
+.font_size_20{
+	font-size: 20px;
+}
+
+.font_size_18{
+	font-size: 18px;
+}
+
+/* font size */
+
+/* sub classes */
+
+.sub_heading{
+	color: #ff4800;
+	margin:60px 0px 45px 0px;
+	font-size: 21px;
+	text-align: left;
+}
+
+.sidebar_active{
+	background-color: #ff4800;
+}
+
+.sidebar_active img{
+	background-color: #da3e00;
+	border-right: 1px solid #da3e00 !important;
+}
+
+.sidebar_active figcaption{
+	background-color: #ff4800;
+	color: #ffffff !important;
+}
+
+.figcaption_active{
+	color: #ff4800;
+	text-decoration: underline;
+	text-decoration-color: #ffa795;
+}
+
+@media (max-width: 480px) {
+	.hidden-xs{
+	    display: none !important;
+	}
+}
+
+@media (max-width: 1023px) and (min-width: 768){
+	.hidden-sm{
+	    display: none !important;
+	}
+}
+
+
+/* sub classes */
