@@ -2,7 +2,7 @@ body{
 	font-family: Myriad Pro;
 	margin: 0px;
 	padding: 0px;
-	font-size: 16px;
+	font-size: 15px;
 	text-align: center;
 }
 
@@ -115,7 +115,7 @@ header h3{
 }
 
 .content1 p {
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 10px;
     color: #d4d5d8;
 }
@@ -151,7 +151,7 @@ button.orange_dark_color{
 }
 
 .content3 p {
-	font-size: 18px;
+	font-size: 13px;
 	line-height: 10px;
 }
 
@@ -428,9 +428,12 @@ figure a span:hover{
 		margin-bottom: 50px;
 	}
 
+	.second_sub_section .sub_heading{
+		text-align: left;
+	}	
+
 	.third_section .section_one{
 		padding: 20px;
-		text-align: center;
 	}
 
 	.forth_section{
@@ -555,7 +558,6 @@ figure a span:hover{
 
 	.third_section .section_one{
 		padding: 20px;
-		text-align: center;
 	}
 
 	.forth_section{
@@ -608,6 +610,14 @@ figure a span:hover{
 
 	.sub_heading{
 		text-align: center;
+	}
+
+	.second_sub_section .sub_heading{
+		text-align: left;
+	}
+
+	.forth_section .sub_heading{
+		text-align: left;
 	}
 
 	.forth_section .section_two{
@@ -853,7 +863,6 @@ figure a span:hover{
 
 	.fifth_section .black_bg_color{
 		line-height: 30px;
-		font-size: 20px;
 	}
 }
 /* media queries start*/

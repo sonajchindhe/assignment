@@ -36,6 +36,5 @@ function displaySlides(n,class_name) {
 
 
 function closeModal(){
-    console.log(1);
     document.getElementById("openModal").style.display="none";
 }
