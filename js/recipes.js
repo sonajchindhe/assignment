@@ -33,3 +33,9 @@ function displaySlides(n,class_name) {
     }  
     slides[slide_index - 1].style.display = "block";  
 }  
+
+
+function closeModal(){
+    console.log(1);
+    document.getElementById("openModal").style.display="none";
+}

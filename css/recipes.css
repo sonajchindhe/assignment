@@ -24,11 +24,11 @@ button{
 	left: 0;
 	background: rgba(89,89,89,0.8);
 	z-index: 99999;
-	opacity:0;
+	/*opacity:0;*/
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in;
 	transition: opacity 400ms ease-in;
-	pointer-events: none;
+	/*pointer-events: none;*/
 }
 
 .modalDialog:target {
@@ -183,7 +183,7 @@ button.orange_dark_color{
 }
 
 .second_section .slider_images header{
-	margin-left: -5px;
+	/*margin-left: -5px;*/
 }
 
 .second_section figure{
@@ -463,10 +463,10 @@ figure a span:hover{
 	}
 
 	.mini_images figcaption{
-		text-align: center;
 		padding: 20px 0px;
 		margin-top: -7px;
 		cursor: pointer;
+		text-align: center;
 	}
 
 	.sub_heading{
@@ -489,6 +489,10 @@ figure a span:hover{
 	.fifth_section .black_bg_color{
 		line-height: 30px;
 		font-size: 20px;
+	}
+
+	.how_it_works_arrows{
+		display: none;
 	}
 }
 
@@ -597,11 +601,9 @@ figure a span:hover{
 	}
 
 	.mini_images figcaption{
-		text-align: center;
 		padding: 20px 0px;
 		margin-top: -7px;
 		cursor: pointer;
-		font-size: 12px;
 	}
 
 	.sub_heading{
@@ -624,6 +626,10 @@ figure a span:hover{
 	.fifth_section .black_bg_color{
 		line-height: 30px;
 		font-size: 20px;
+	}
+
+	.how_it_works_arrows{
+		display: none;
 	}
 }
 
@@ -673,10 +679,6 @@ figure a span:hover{
 	.second_section{
 	    display: flex;
 	    padding: 0 20px;
-	}
-
-	.first_sub_section{
-		/*width: 100% !important;*/
 	}
 
 	.second_sub_section{
@@ -739,16 +741,10 @@ figure a span:hover{
 	}
 
 	.mini_images figcaption{
-		text-align: center;
 		padding: 20px 0px;
 		margin-top: -7px;
 		cursor: pointer;
-		font-size: 12px;
-	}
-
-	.sub_heading{
-		text-align: center;
-	}
+	}	
 
 	.forth_section{
 		padding: 20px;
@@ -841,16 +837,10 @@ figure a span:hover{
 	}
 
 	.mini_images figcaption{
-		text-align: center;
 		padding: 20px 0px;
 		margin-top: -7px;
 		cursor: pointer;
-		font-size: 12px;
-	}
-
-	.sub_heading{
-		text-align: center;
-	}
+	}	
 
 	.forth_section .section_two .how_it_works{
 		width: 100%;
